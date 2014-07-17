@@ -1,12 +1,9 @@
 doctype
 html
-	head
-		script: include ./gss_config.json
-		script(src="bower_components/gss/dist/gss.js")
-		link(href='structure.gss', rel='stylesheet', type='text/gss')
+	head: include ./head.jade
 	body
 		#background
-		#profile
+		#profile.shadow
 		#cover
-		#avatar
+		#avatar.shadow
 
